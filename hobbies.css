@@ -1,0 +1,16 @@
+.lienCV{position: absolute;top: 0px;left: 300px;font-size:4em ;}
+.lienC{position: absolute;top: 0px;right: 300px;font-size: 4em;}
+h1 {border: deeppink solid 2px;
+    color: deeppink;
+    background-color: cyan;
+    position: absolute;
+    left: 800px;
+    top: 00px;
+    display: block;
+    font-size: 1em;
+    width: 250px;
+  
+    text-align: center;
+  }
+  div{position: absolute;top: 125px;text-align: center;left: 700px;}
+  div.video{position: absolute;top: 350px;left:700px    ;}

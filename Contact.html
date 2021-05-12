@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head><meta charset="utf8">
+    <link rel="stylesheet" href="contact.css">
+<title>Contact</title>
+
+</head>
+<body>
+
+  
+    <a class="lienH" href="hobbies.html"> Hobbies </a>
+    <a class="lienCV" href="CV.html">CV</a>
+
+    <form action="https://httpbin.org/get" method="GET">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+      
+    <label for="select">quel age avez vous ?:</label>
+
+    
+   
+
+<select name="select" id="select">
+    
+    <option value="1">18-25</option>
+    <option value="2">25-35</option>
+    <option value="32">35-45</option>
+    <option value="56">45-55</option>
+    <option value="20">55-65</option>
+    <option value="98">65-??</option>
+</select>
+
+ 
+
+
+
+    <fieldset>
+      <legend>Taille des cheveux</legend>
+      <p>
+        <input type="radio" name="size" id="size_1" value="small">
+        <label for="size_1">Petit</label>
+      </p>
+      <p>
+        <input type="radio" name="size" id="size_2" value="medium">
+        <label for="size_2">Moyen</label>
+      </p>
+      <p>
+        <input type="radio" name="size" id="size_3" value="large">
+        <label for="size_3">Grand</label>
+      </p>
+    </fieldset>
+    <div class="button">
+      <button type="submit">Envoyer le message</button>
+  </div>
+  </form>
+ 
+  
+
+</body>
+</html>

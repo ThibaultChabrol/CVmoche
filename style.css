@@ -86,11 +86,9 @@ h6 {
   color: deeppink;
   background-color: ivory;
   display: block;
-  font-size: 1em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  font-size:2em;
+  position: absolute;
+  bottom: 250px;
 }
 div.nom {
   background-color: cyan;

@@ -24,7 +24,7 @@ div.imgage img {
 h1 {
   border: deeppink solid 2px;
   color: deeppink;
-  background-color: cyan;
+  background-color: rgb(140, 0, 255);
   position: absolute;
   left: 800px;
   bottom: 600px;
@@ -36,7 +36,7 @@ h1 {
 }
 h2 {
   color: deeppink;
-  background-color: cyan;
+  background-color: rgb(225, 0, 255);
   display: block;
   font-size: 1em;
   margin-block-start: 1em;
@@ -47,7 +47,7 @@ h2 {
 h3 {
   border: deeppink solid 2px;
   color: deeppink;
-  background-color: cyan;
+  background-color: rgb(255, 0, 234);
   position: absolute;
   left: 800px;
   bottom: 325px;
@@ -64,7 +64,7 @@ h4 {
   position: sticky;
   top: 5px;
   color: deeppink;
-  background-color: ivory;
+  background-color: rgb(255, 240, 254);
   display: block;
   font-size: 1em;
   margin-block-start: 1em;
@@ -74,7 +74,7 @@ h4 {
 }
 h5 {
   color: deeppink;
-  background-color: ivory;
+  background-color: rgb(255, 240, 254);
   display: block;
   font-size: 1em;
   margin-block-start: 1em;
